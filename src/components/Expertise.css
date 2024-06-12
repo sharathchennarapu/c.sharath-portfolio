@@ -1,0 +1,42 @@
+.expertise-container
+{
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.heading>h3
+{
+    color: #3B55A5;
+}
+.heading>h1
+{
+    color: #D57428;
+}
+.exp-box
+{
+    
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 40px;
+}
+.exp-box-content
+{
+    text-align: left;
+}
+.exp-box-content>h3
+{
+    color: #3B55A5;
+}
+.exp-box-content>h4
+{
+    color: #D57428;
+}
+.img1
+{
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    object-fit: cover;
+    border-radius: 40px;
+}

@@ -1,0 +1,29 @@
+.footer-container
+{
+    text-align: center;
+    background-color: black;
+}
+.footer-container-item
+{
+    text-align: center;
+}
+.footer-container-item>img
+{
+    height: 40px;
+    width: min-content;
+    margin: 50px;
+}
+.navitems2
+{
+    margin-left: 530px;
+    font-size: 20px;
+}
+.footer-icons
+{
+    padding: 40px;
+    display: inline-flex;
+}
+.footer-icon1
+{
+    padding-right: 30px;
+}

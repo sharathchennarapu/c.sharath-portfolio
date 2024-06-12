@@ -1,0 +1,68 @@
+.backgroundcolor
+{
+    background-color: rgb(43, 43, 43);
+}
+.container-box
+{
+    height: 100vh;
+    width: 100%;
+    
+}
+.logo
+{
+    width: 30vh;
+    height: 11vh;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.navitems
+{
+   margin-left: 300px;
+   font-size: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+   padding-right: 30px;
+   
+ 
+}
+.navitems-li
+{
+   margin-right: 20px;
+   font-size: 20px;
+   
+   cursor: pointer;
+}
+.textdec
+{
+    text-decoration: none;
+    color: #3B55A5;
+}
+.home
+{
+    text-align: center;
+    padding-top: 100px;
+}
+.myname
+{
+    color: #3B55A5;
+    font-size: 50px;
+    font-weight: 500;
+}
+.designation, .iam
+{
+    color: #D57428;
+    font-size: 40px;
+    font-weight: normal;
+    list-style: none;
+    text-decoration: none;
+}
+.buttons
+{
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+
