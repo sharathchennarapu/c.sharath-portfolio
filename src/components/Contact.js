@@ -26,6 +26,7 @@ function Contact() {
 
   return (
    <>
+   <div className='contact-maincontainer'>
    <div className='contact-container'>
     <h4>Get in Touch</h4>
     <h1>Any Questions? Feel Free To Contact</h1>
@@ -54,7 +55,7 @@ function Contact() {
             type="text"
             placeholder="First name"
           />
-          <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+          <Form.Control.Feedback type='invalid'>Please provide your name.</Form.Control.Feedback>
         </Form.Group>  
 
         <Form.Group as={Col} md="6" controlId="validationCustomUsername">
@@ -68,7 +69,7 @@ function Contact() {
               required
             />
             <Form.Control.Feedback type="invalid">
-              Please choose a username.
+              Please provide your username.
             </Form.Control.Feedback>
           </InputGroup>
         </Form.Group>
@@ -104,7 +105,7 @@ function Contact() {
             Please provide a valid Message.
           </Form.Control.Feedback>
         </Form.Group >
-      <Button className='m-3' type="submit">Submit form</Button>
+      <Button className='mt-4' type="submit">Submit form</Button>
     </Form>
     </div>
     </div>
@@ -112,7 +113,7 @@ function Contact() {
    
       </Row>
     </Container>
-    
+    </div>
    </div>
    </>
   )

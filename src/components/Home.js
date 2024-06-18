@@ -1,6 +1,8 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import '../components/Navbar.css'
+import Particals from '../components/Particals'
+import {Link} from 'react-router-dom';
 
 function Home() {
     var TxtType = function(el, toRotate, period) {
@@ -62,8 +64,8 @@ function Home() {
     
   return (
    <>
-   <div className='container'>
-    <div className='container-box'>
+   <div className='container-fluid mainbox'>
+   <Particals/>
      <h1 className='home'>
         <p className='myname'>SHARATH CHENNARAPU</p>
         {/* eslint-disable-next-line */}
@@ -72,11 +74,11 @@ function Home() {
         </a>
      </h1>
      <div className='buttons'>
-     <Button className='m-3' variant="outline-primary" size="lg">Hire Me</Button>
-     <Button className='m-3' variant="outline-primary" size="lg">See My Works</Button>
+     <Link to='/contact'> <Button className='m-3' variant="outline-primary" size="lg">Hire Me</Button></Link>
+     <Link to='/Portfolioworks'> <Button className='m-3' variant="outline-primary" size="lg">See My Works</Button></Link>
      </div>
      </div>
-    </div>
+  
    </>
   )
 }

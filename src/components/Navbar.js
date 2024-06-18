@@ -6,8 +6,8 @@ function Navbarmain() {
   
   return (
 <>
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
+<nav className="navbar navbar-expand-lg ">
+  <div className="container-fluid">
     <img className='logo' src={require('../images/mylogo.2.png')} alt="mylogo"/>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
@@ -31,7 +31,9 @@ function Navbarmain() {
         </li> 
       </ul>
       <span className="d-flex p-3">
+        <Link to='/contact'>
       <button type="button" class="btn btn-outline-primary">Contact</button>
+      </Link>
       </span>
     </div>
   </div>

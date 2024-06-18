@@ -1,12 +1,12 @@
 .backgroundcolor
 {
-    background-color: rgb(43, 43, 43);
+    background-color: black;
 }
-.container-box
+.mainbox
 {
     height: 100vh;
     width: 100%;
-    
+    background-color: black;
 }
 .logo
 {
@@ -15,7 +15,11 @@
     object-fit: contain;
     padding-left: 20px;
 }
-
+.navbar
+{
+    background-color: #3b56a52a;
+   
+}
 .navitems
 {
    margin-left: 300px;
@@ -42,7 +46,35 @@
 .home
 {
     text-align: center;
-    padding-top: 100px;
+    padding-top: 200px;
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    }
+    @keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
 }
 .myname
 {
@@ -62,6 +94,34 @@
 {
     text-align: center;
     padding-top: 30px;
+    -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInUp {
+  0% {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
+  }
+  @keyframes slideInUp {
+  0% {
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  }
 }
 
 

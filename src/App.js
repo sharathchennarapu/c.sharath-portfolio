@@ -10,23 +10,28 @@ import Portfolioworks from "./components/Portfolioworks";
 import Skills from "./components/Skills";
 
 
+
 function App() {
   return (
   <>
  <header>
+
 <Navbarmain/>
  </header>
  
+ 
   <Routes>
+    
     <Route path="/" element={ <Home/>}/>
     <Route path="/services" element={ <Expertise/>}/>
-    <Route path="/Skills" element={  <Skills/>}/>
-    <Route path="/About" element={<About/>}/>
-    <Route path="/Portfolioworks" element={  <Portfolioworks/>}/>
-    <Route path="/Contact" element={<Contact/>}/>
+    <Route path="/skills" element={  <Skills/>}/>
+    <Route path="/about" element={<About/>}/>
+    <Route path="/portfolioworks" element={  <Portfolioworks/>}/>
+    <Route path="/contact" element={<Contact/>}/>
   </Routes>
-  
-  <Footer/>
+<Footer>
+<Footer/>
+</Footer>
   </>
   );
 }

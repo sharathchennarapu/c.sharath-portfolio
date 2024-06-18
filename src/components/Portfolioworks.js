@@ -12,22 +12,22 @@ function Portfolioworks() {
         <h5>My Works</h5>
         <h1>Check My Portfolio</h1>
      <div>
-     <Tabs defaultActiveKey="All" id="justify-tab-example"  className="mb-3 selection" justify >
-        <Tab eventKey="All" title="All">
+     <Tabs defaultActiveKey="All"  className="mb-3 selection">
+        <Tab eventKey="All" title="All" className='selection-item'>
             <div className='box1'></div>
             <div className='box1'></div>
             <div className='box1'></div>
             <div className='box1'></div>
            
         </Tab>
-        <Tab eventKey="Development" title="Development">
+        <Tab eventKey="Development" title="Development" className='selection-item rounded'>
             <div className='box2'></div>
             <div className='box2'></div>
             <div className='box2'></div>
             <div className='box2'></div>
            
         </Tab>
-        <Tab eventKey="Designing" title="Designing">
+        <Tab eventKey="Designing" title="Designing" className='selection-item'>
             <div className='box3'></div>
             <div className='box3'></div>
             <div className='box3'></div>

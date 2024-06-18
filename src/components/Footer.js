@@ -1,6 +1,6 @@
 import React from 'react'
 import '../components/Footer.css'
-import Nav from 'react-bootstrap/Nav';
+import {Link} from 'react-router-dom';
 import { SiLinktree,SiInstagram,SiLinkedin } from "react-icons/si";
 
 function Footer() {
@@ -8,19 +8,36 @@ function Footer() {
     <>
     <div className='footer-container'>
         <div className='footer-container-item'>
-            <img src={require('../images/mylogo.2.png')} alt='mylogopic' />
-            <Nav  className="me-auto my-2 my-lg-0 navitems2"  style={{ maxHeight: '100px' }} navbarScroll >
-            <Nav.Link style={{ color: '#3B55A5' }} href="#action1">Home   |</Nav.Link>
-            <Nav.Link style={{ color: '#3B55A5' }} href="#action2">Services   |</Nav.Link>
-            <Nav.Link style={{ color: '#3B55A5' }} href="#action2">Skills   |</Nav.Link>
-            <Nav.Link style={{ color: '#3B55A5' }} href="#action2">About    |</Nav.Link>
-            <Nav.Link style={{ color: '#3B55A5' }} href="#action2">Portfolio </Nav.Link>
-          </Nav>
+        <Link to='/' className='footer-container-item-1'>
+            <img src={require('../images/mylogo.2.png')} alt='mylogopic' className='img-fluid'/>
+            </Link>
+             <ul className="navitems2 me-auto mb-2 mb-lg-0" >
+        <li className='navitems-li'> 
+          <Link to='/'className='textdec'> Home</Link>
+        </li >
+        <li className='navitems-li'> 
+          <Link to='/services' className='textdec'> Services</Link>
+        </li> 
+        <li className='navitems-li'> 
+          <Link to='/Skills' className='textdec'> Skills</Link>
+        </li> 
+        <li className='navitems-li'> 
+          <Link to='/About' className='textdec'> About</Link>
+        </li> 
+        <li className='navitems-li'> 
+          <Link to='/Portfolioworks' className='textdec'> Portfolio</Link>
+        </li> 
+      </ul>
           <div className='footer-icons'>
-            <div className='footer-icon1'> <SiLinktree size={50} /> </div>
-            <div className='footer-icon1'> <SiInstagram  size={50}/></div>
-            <div className='footer-icon1'> <SiLinkedin  size={50}/></div>
-        
+            <div className='footer-icon1'> 
+              <a href='https://linktr.ee/sharathchennarapu.uiux'><SiLinktree size={40} /></a> 
+            </div>
+            <div className='footer-icon1'> 
+              <a href='https://www.linkedin.com/in/sharath-chennarapu-98929328a/?trk=public-profile-join-page'><SiLinkedin size={40} /> </a>
+            </div>
+            <div className='footer-icon1'> 
+              <a href='https://www.instagram.com/_tinku_mudiraj_/'><SiInstagram  size={40}/></a>
+            </div>
           </div>
         </div>
     </div>
