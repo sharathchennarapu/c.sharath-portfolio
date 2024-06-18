@@ -187,3 +187,22 @@
     color: white;
 }
 
+
+@media screen and (max-width :780px) {
+    
+    .skills-container
+    {
+        height: auto;
+        width: 100%;
+        background-color: black;
+    }
+    .skills-container-items1
+    {
+        padding-bottom: 50px;
+    }
+    .skills-container-items
+{
+    padding-top: 0px;
+}
+}
+

@@ -47,8 +47,8 @@
 }
 .img1
 {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     margin-top: 20px;
     object-fit: cover;
     border-radius: 40px;
@@ -182,5 +182,21 @@
   -webkit-transform: none;
   transform: none;
   }
+
+}
+
+
+@media screen and (max-width :780px) {
+    .expertise-container
+{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+.expertise-container-item
+{
+    margin: 0px 20px 0px 20px;
+}
 
 }

@@ -37,7 +37,7 @@ function Portfolioworks() {
      </Tabs>
      </div>
      <div className='portfolio-link'>
-        <h3><u>Click to See Complete Portfolio</u></h3>
+       <a href='https://linktr.ee/sharathchennarapu.uiux'><h3><u>Click to See Complete Portfolio</u></h3></a> 
         </div> 
     </div>
    </div>

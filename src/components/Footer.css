@@ -45,3 +45,25 @@
 {
   transform: scale(1.2);  
 }
+
+
+@media screen and (max-width :780px) {
+    .navitems2
+    {
+       display: inline;
+       list-style: none;
+        font-size: auto;
+        justify-content: center;
+    }
+    .footer-container-item-1>img
+{
+    height: 45px;
+    width: min-content;
+    margin: 30px;
+}
+    .footer-icon1
+{
+    justify-content: center;
+    padding: 10px;
+}
+}

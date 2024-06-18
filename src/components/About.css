@@ -122,3 +122,63 @@
   transform: none;
   }
 }
+
+
+@media screen and (max-width :780px) {
+    .about-container
+{
+    height: 150vh;
+    background-color: black;
+}
+.about-subcontainer
+{
+    height: auto;
+    position: absolute;
+    left: auto;
+    right: auto;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.269);
+}
+.myimg
+{
+    height: 300px;
+    width: auto;
+    padding-top: 0px;
+}
+
+.about-container-items2
+{
+    padding-top: 0px;
+    
+}
+.about-container-items2>h3
+{
+    text-align: center;
+    color: #D57428;
+    font-weight: bold;
+}
+.about-container-items2>h5
+{
+    color: white;
+    text-align: justify;
+    font-weight: normal;
+    text-align: justify;
+}
+.stacknames
+{
+    color: white;
+    font-size:auto;
+    font-weight: normal;
+   display: inline;
+}
+
+.stacknames-color
+{
+    color: #D57428;
+    font-weight: bold;
+}
+
+
+
+}
