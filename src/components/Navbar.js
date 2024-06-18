@@ -8,26 +8,26 @@ function Navbarmain() {
 <>
 <nav className="navbar navbar-expand-lg ">
   <div className="container-fluid">
-    <img className='logo' src={require('../images/mylogo.2.png')} alt="mylogo"/>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+    <Link to='/'> <img className='logo' src={require('../images/mylogo.2.png')} alt="mylogo"/></Link>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarText">
-      <ul className="navitems me-auto mb-2 mb-lg-0">
-        <li className='navitems-li'> 
-          <Link to='/'className='textdec'> Home</Link>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 navitems ">
+        <li class='nav-item navitems-li'> 
+          <Link to='/'className='textdec nav-link'> Home</Link>
         </li >
-        <li className='navitems-li'> 
-          <Link to='/services' className='textdec'> Services</Link>
+        <li className='nav-item navitems-li'> 
+          <Link to='/services' className='textdec nav-link'> Services</Link>
         </li> 
-        <li className='navitems-li'> 
-          <Link to='/Skills' className='textdec'> Skills</Link>
+        <li className='nav-item navitems-li'> 
+          <Link to='/Skills' className='textdec nav-link'> Skills</Link>
         </li> 
-        <li className='navitems-li'> 
-          <Link to='/About' className='textdec'> About</Link>
+        <li className='nav-item navitems-li'> 
+          <Link to='/About' className='textdec nav-link'> About</Link>
         </li> 
-        <li className='navitems-li'> 
-          <Link to='/Portfolioworks' className='textdec'> Portfolio</Link>
+        <li className='nav-item navitems-li'> 
+          <Link to='/Portfolioworks' className='textdec nav-link'> Portfolio</Link>
         </li> 
       </ul>
       <span className="d-flex p-3">
