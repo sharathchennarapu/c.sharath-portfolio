@@ -2,43 +2,36 @@ import React from 'react';
 import '../components/Navbar.css'
 import {Link} from 'react-router-dom';
 
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+
+
 function Navbarmain() {
   
   return (
 <>
-<nav className="navbar navbar-expand-lg ">
-  <div className="container-fluid">
-    <Link to='/'> <img className='logo' src={require('../images/mylogo.2.png')} alt="mylogo"/></Link>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarText">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 navitems ">
-        <li class='nav-item navitems-li'> 
-          <Link to='/'className='textdec nav-link'> Home</Link>
-        </li >
-        <li className='nav-item navitems-li'> 
-          <Link to='/services' className='textdec nav-link'> Services</Link>
-        </li> 
-        <li className='nav-item navitems-li'> 
-          <Link to='/Skills' className='textdec nav-link'> Skills</Link>
-        </li> 
-        <li className='nav-item navitems-li'> 
-          <Link to='/About' className='textdec nav-link'> About</Link>
-        </li> 
-        <li className='nav-item navitems-li'> 
-          <Link to='/Portfolioworks' className='textdec nav-link'> Portfolio</Link>
-        </li> 
-      </ul>
-      <span className="d-flex p-3">
-        <Link to='/contact'>
-      <button type="button" class="btn btn-outline-primary">Contact</button>
-      </Link>
-      </span>
-    </div>
-  </div>
-</nav>
 
+<Navbar collapseOnSelect expand="lg" className="navbarcolor">
+        <Navbar.Brand><Link to='/'> <img className='logo' src={require('../images/mylogo.2.png')} alt="mylogo"/></Link></Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" className='m-3' />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto navitems">
+            <Nav.Link><Link to='/'className='textdec'> Home</Link></Nav.Link>
+            <Nav.Link><Link to='/services' className='textdec'> Services</Link></Nav.Link>
+            <Nav.Link><Link to='/Skills' className='textdec'> Skills</Link></Nav.Link>
+            <Nav.Link><Link to='/About' className='textdec'> About</Link></Nav.Link>
+            <Nav.Link><Link to='/Portfolioworks' className='textdec'> Portfolio</Link></Nav.Link>
+          </Nav>
+          <Nav>
+            <Nav.Link>
+              <Link to='/contact'>
+                 <button type="button" class="btn btn-outline-primary m-3">Contact</button>
+              </Link>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      
+    </Navbar>
 
 </>
   );

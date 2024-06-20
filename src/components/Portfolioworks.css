@@ -30,7 +30,7 @@
 .selection
 {
     margin-left: 590px;
-    margin-right: 594px;
+    margin-right: 580px;
     background-color: black;
     color:white;
     border-radius: 20px;
@@ -43,19 +43,16 @@
 {
     height: 250px;
     width: 250px;
-    background-color: aqua;
 }
 .box2
 {
     height: 250px;
     width: 250px;
-    background-color: blueviolet;
 }
 .box3
 {
     height: 250px;
     width: 250px;
-    background-color: orange;
 }
 .portfolio-link
 {
@@ -141,10 +138,15 @@
     }
         
 }
+.htmlimg
+{
+    height: 250px;
+    width: auto;
+}
 @media screen and (max-width :780px) {
     .portfolio-container
 {
-    height: 220vh;
+    height: 400vh;
     width: 100%;
     padding-top: 70px;
     padding-left: 20px;
@@ -173,8 +175,8 @@
 }
 .selection
 {
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-color: black;
     color:white;
     border-radius: 20px;
@@ -187,19 +189,20 @@
 {
     height: 250px;
     width: 250px;
-    background-color: aqua;
+    
+ 
 }
 .box2
 {
     height: 250px;
     width: 250px;
-    background-color: blueviolet;
+
 }
 .box3
 {
     height: 250px;
     width: 250px;
-    background-color: orange;
+
 }
 .portfolio-link
 {
