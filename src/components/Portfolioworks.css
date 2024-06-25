@@ -1,6 +1,6 @@
 .portfolio-container
 {
-    height: 200vh;
+    height: 230vh;
     width: 100%;
     padding-top: 70px;
     padding-left: 20px;
@@ -39,10 +39,71 @@
 {
     margin: 50px;
 }
+.htmlimg
+{
+    display: block;
+    width: 100%;
+    height: 250px;
+}
 .box1
 {
-    height: 250px;
-    width: 250px;
+    margin: 6% 0 0 36%;
+    position: relative;
+    width: 25%;
+  
+}
+.box2
+{
+    margin: 6% 0 0 36%;
+    position: relative;
+    width: 25%;
+  
+}
+.box3
+{
+    margin: 6% 0 0 36%;
+    position: relative;
+    width: 25%;
+  
+}
+.overlay
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.504);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.box1:hover .overlay
+{
+   
+    height: 100%;
+}
+.box2:hover .overlay
+{
+    height: 100%;
+}
+
+.box3:hover .overlay
+{
+    height: 100%;
+}
+
+
+.overlay>h3
+{
+    margin-top: 50%;
+    margin-left: 25%;
+    padding: 5px;
+    color: black;
+    position: absolute;
+    text-align: center;
+    background-color: white;
+    font-size: 15px;
 }
 .box2
 {
@@ -58,6 +119,7 @@
 {
     text-align: center;
     color: #D57428;
+    
     cursor: pointer;
 }
 .portfolio-link:hover
@@ -138,11 +200,7 @@
     }
         
 }
-.htmlimg
-{
-    height: 250px;
-    width: auto;
-}
+
 @media screen and (max-width :780px) {
     .portfolio-container
 {

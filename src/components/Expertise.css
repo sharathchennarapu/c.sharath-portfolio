@@ -19,14 +19,17 @@
 }
 .exp-box
 {
-    background-color: rgba(70, 70, 70, 0.493);
+   /* background-color: rgba(70, 70, 70, 0.493); */
     border-radius: 20px;
     margin: 20px;
+    background-image: linear-gradient(90deg, #3b56a580 0%, rgba(255, 255, 255, 0) 100%);
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
 }
 .exp-box:hover
 {
-  transform: scale(1.02); 
-  border: 1px solid grey; 
+    background-size: 100% 100%;
 }
 
 .exp-box-content
