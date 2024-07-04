@@ -59,7 +59,7 @@ function Portfolioworks() {
                         </a> 
                    </Col>
                     <Col className="box1 m-5" md="auto">
-                        <a href="https://linktr.ee/SharathC.Designing_portfolio" target="blank">
+                        <a href="https://designing-portfolio-sharathchennarapu.netlify.app/" target="blank">
                            <img className="htmlimg" src={require('../images/ai.png')} alt="htmlimg" />
                            <div className="overlay">
                           <h3>click here to view <FaArrowRight /> </h3>
@@ -67,7 +67,7 @@ function Portfolioworks() {
                        </a>
                    </Col>
                     <Col className="box1 m-5" md="auto">
-                        <a href="https://linktr.ee/SharathC.Designing_portfolio" target="blank">
+                        <a href="https://designing-portfolio-sharathchennarapu.netlify.app/" target="blank">
                            <img className="htmlimg" src={require('../images/ps.png')} alt="htmlimg" />
                            <div className="overlay">
                           <h3>click here to view <FaArrowRight /> </h3>
@@ -77,7 +77,7 @@ function Portfolioworks() {
                   </Row>
                   <Row className="justify-content-md-center">
                     <Col className="box1 m-5" md="auto">
-                        <a href="https://linktr.ee/SharathC.Designing_portfolio" target="blank">
+                        <a href="https://designing-portfolio-sharathchennarapu.netlify.app/" target="blank">
                            <img className="htmlimg" src={require('../images/xd.png')} alt="htmlimg" />
                            <div className="overlay">
                           <h3>click here to view <FaArrowRight /> </h3>
@@ -85,7 +85,7 @@ function Portfolioworks() {
                        </a>
                    </Col>
                     <Col className="box1 m-5" md="auto">
-                        <a href="https://linktr.ee/SharathC.Designing_portfolio" target="blank">
+                        <a href="https://designing-portfolio-sharathchennarapu.netlify.app/" target="blank">
                            <img className="htmlimg" src={require('../images/figma.png')} alt="htmlimg" />
                            <div className="overlay">
                           <h3>click here to view <FaArrowRight /> </h3>
@@ -140,7 +140,7 @@ function Portfolioworks() {
                 <Container>
                   <Row className="justify-content-md-center">
                   <Col className="box3 m-5" md="auto">
-                     <a href="https://linktr.ee/SharathC.Designing_portfolio">
+                     <a href="https://designing-portfolio-sharathchennarapu.netlify.app/" target="blank">
                         <img className="htmlimg" src={require('../images/ai.png')} alt="htmlimg" />
                         <div className="overlay">
                           <h3>click here to view <FaArrowRight /> </h3>
@@ -148,7 +148,7 @@ function Portfolioworks() {
                      </a>
                   </Col>
                   <Col className="box3 m-5" md="auto">
-                     <a href="https://linktr.ee/SharathC.Designing_portfolio">
+                     <a href="https://designing-portfolio-sharathchennarapu.netlify.app/" target="blank">
                          <img className="htmlimg" src={require('../images/ps.png')} alt="htmlimg" />
                          <div className="overlay">
                           <h3>click here to view <FaArrowRight /> </h3>
@@ -158,7 +158,7 @@ function Portfolioworks() {
                   </Row>
                   <Row className="justify-content-md-center">
                   <Col className="box3 m-5" md="auto">
-                     <a href="https://linktr.ee/SharathC.Designing_portfolio">
+                     <a href="https://designing-portfolio-sharathchennarapu.netlify.app/" target="blank">
                         <img className="htmlimg" src={require('../images/xd.png')} alt="htmlimg" />
                         <div className="overlay">
                           <h3>click here to view <FaArrowRight /> </h3>
@@ -166,7 +166,7 @@ function Portfolioworks() {
                      </a>
                   </Col>
                   <Col className="box3 m-5" md="auto">
-                     <a href="https://linktr.ee/SharathC.Designing_portfolio">
+                     <a href="https://designing-portfolio-sharathchennarapu.netlify.app/" target="blank">
                         <img className="htmlimg" src={require('../images/figma.png')} alt="htmlimg" />
                         <div className="overlay">
                           <h3>click here to view <FaArrowRight /> </h3>
@@ -179,7 +179,7 @@ function Portfolioworks() {
             </TabPanels>
           </Tabs>
         <div className="portfolio-link">
-          <a href="https://linktr.ee/sharathchennarapu_Portfolio">
+          <a href="https://linktr.ee/sharathchennarapu_Portfolio" target="blank">
             <h3>
               <u>- Click to See Complete Portfolio -</u>
             </h3>
