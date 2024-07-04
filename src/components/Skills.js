@@ -9,6 +9,7 @@ import { CircularProgress, CircularProgressLabel } from '@chakra-ui/react'
 function Skills() {
   return (
     <>
+  
     <div className='skills-container '>
      <Container >
       <Row className='skills-container-items'>
@@ -54,7 +55,7 @@ function Skills() {
       </Row>
     </Container>
     </div>
-
+  
     </>
   )
 }

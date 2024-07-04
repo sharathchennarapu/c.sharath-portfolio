@@ -6,7 +6,7 @@
 }
 .skills-container-items
 {
-    padding-top: 20px;
+    padding-top: 100px;
 }
 .skills-container-items1
 {
@@ -142,7 +142,7 @@
 {
     color: #3B55A5 ;
     padding: 10px;
-    padding-top: 140px;
+    padding-top: 100px;
 }
 .skills-container-items1>h1
 {
@@ -169,6 +169,7 @@
     text-align: center;
     background-color: rgba(70, 70, 70, 0.493);
      margin: 10px; 
+     padding: 20px;
     border-radius: 20px;
 }
 .sci:hover
@@ -183,12 +184,12 @@
 }
 .sci-number
 {
-    padding-top: 50px;
+    padding-top: 10px;
     color: white;
 }
 
 
-@media screen and (max-width :780px) {
+@media only screen and (min-width :360px) and (max-width :640px) {
     
     .skills-container
     {

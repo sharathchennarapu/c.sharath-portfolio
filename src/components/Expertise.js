@@ -34,6 +34,7 @@ function Expertise() {
              <h3><u>My Expertise</u></h3>
              <h1>Provide Wide Range of Digital Services</h1>
           </div>
+          <div className='container-fluid'>
           <div className="expertise-container-item px-4 text-center">
             <div className="row gx-5">
               <div className="col exp-box exp-content-box1">
@@ -138,7 +139,7 @@ function Expertise() {
             </div>
            </div>
         </div>
-    
+        </div>
     </>
   )
 }

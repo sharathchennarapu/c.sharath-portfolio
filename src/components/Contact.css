@@ -132,7 +132,7 @@
     height: 95px;
     border-radius: 7px;
 }
-@media screen and (max-width :780px) {
+@media only screen and (min-width :360px) and (max-width :640px) {
     .contact-maincontainer
     {
         height: auto;

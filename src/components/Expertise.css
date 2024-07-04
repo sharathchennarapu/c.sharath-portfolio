@@ -189,7 +189,7 @@
 }
 
 
-@media screen and (max-width :780px) {
+@media only screen and (min-width :360px) and (max-width :640px) {
     .expertise-container
 {
     height: auto;
@@ -197,6 +197,7 @@
     text-align: center;
     background-color: black;
 }
+
 .expertise-container-item
 {
     margin: 0px 20px 0px 20px;

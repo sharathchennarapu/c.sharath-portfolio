@@ -1,44 +1,25 @@
-.portfolio-container
-{
-    height: 230vh;
-    width: 100%;
-    padding-top: 70px;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: black;
-}
+
 .portfolio-container2
 {
-    height: 400px;
+    height: auto;
     width: 100%;
-    background-color: #6f34fe;;
+    background-color: rgba(0, 0, 0, 0.968);
 }
 .portfolio-container2>h5
 {
-    color: white;
+    color: #3B55A5;
     text-align: center;
     padding-top: 50px;
     font-size: 30px;
 }
 .portfolio-container2>h1
 {
-    color: white;
+    color: #D57428;
     text-align: center;
     font-size: 60px;
     padding-bottom: 30px;
 }
-.selection
-{
-    margin-left: 590px;
-    margin-right: 580px;
-    background-color: black;
-    color:white;
-    border-radius: 20px;
-}
-.selection-item
-{
-    margin: 50px;
-}
+
 .htmlimg
 {
     display: block;
@@ -96,14 +77,15 @@
 
 .overlay>h3
 {
-    margin-top: 50%;
-    margin-left: 25%;
-    padding: 5px;
+    margin-top: 40%;
+    margin-left: 20%;
+    border-radius: 5px;
+    padding: 10px;
     color: black;
     position: absolute;
     text-align: center;
     background-color: white;
-    font-size: 15px;
+    font-size: 18px;
 }
 .box2
 {
@@ -119,7 +101,7 @@
 {
     text-align: center;
     color: #D57428;
-    
+    padding: 70px;
     cursor: pointer;
 }
 .portfolio-link:hover
@@ -201,10 +183,120 @@
         
 }
 
-@media screen and (max-width :780px) {
-    .portfolio-container
+@media only screen and (min-width :360px) and (max-width :640px) {
+
+
+    .portfolio-container2
+    {
+        height: auto;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.968);
+    }
+    .portfolio-container2>h5
+    {
+        color: #3B55A5;
+        text-align: center;
+        padding-top: 50px;
+        font-size: auto;
+    }
+    .portfolio-container2>h1
+    {
+        color: #D57428;
+        text-align: center;
+        font-size: auto;
+        padding-bottom: 30px;
+    }
+    
+    .htmlimg
+    {
+        display: block;
+        width: auto;
+        height: 250px;
+    }
+    .box1
+    {
+        margin: 6% 0 0 36%;
+        position: relative;
+        width: 25%;
+      
+    }
+    .box2
+    {
+        margin: 6% 0 0 36%;
+        position: relative;
+        width: 25%;
+      
+    }
+    .box3
+    {
+        margin: 6% 0 0 36%;
+        position: relative;
+        width: 25%;
+      
+    }
+    .overlay
+    {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(255, 255, 255, 0.504);
+        overflow: hidden;
+        width: 100%;
+        height: 0;
+        transition: .5s ease;
+    }
+    .box1:hover .overlay
+    {
+       
+        height: 100%;
+    }
+    .box2:hover .overlay
+    {
+        height: 100%;
+    }
+    
+    .box3:hover .overlay
+    {
+        height: 100%;
+    }
+    
+    
+    .overlay>h3
+    {
+        margin-top: 40%;
+        margin-left: 20%;
+        border-radius: 5px;
+        padding: 10px;
+        color: black;
+        position: absolute;
+        text-align: center;
+        background-color: white;
+        font-size: 18px;
+    }
+    .box2
+    {
+        height: auto;
+        width: 250px;
+    }
+    .box3
+    {
+        height: auto;
+        width: 250px;
+    }
+    .portfolio-link
+    {
+        text-align: center;
+        color: #D57428;
+        padding: 50px;
+        cursor: pointer;
+    }
+
+
+
+    /* .portfolio-container
 {
-    height: 400vh;
+    height: auto;
     width: 100%;
     padding-top: 70px;
     padding-left: 20px;
@@ -267,5 +359,5 @@
     text-align: center;
     color: #D57428;
     cursor: pointer;
-}
+} */
 }

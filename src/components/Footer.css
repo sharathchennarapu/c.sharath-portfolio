@@ -13,7 +13,8 @@
 {
     height: 60px;
     width: min-content;
-    margin: 30px;
+    margin: 50px;
+    padding-left: 600px;
 }
 .navitems2
 {
@@ -47,7 +48,7 @@
 }
 
 
-@media screen and (max-width :780px) {
+@media only screen and (min-width :360px) and (max-width :640px){
     .navitems2
     {
        display: inline;
@@ -57,9 +58,10 @@
     }
     .footer-container-item-1>img
 {
-    height: 45px;
+    height: 60px;
     width: min-content;
     margin: 30px;
+    padding-left: 10px;
 }
     .footer-icon1
 {
