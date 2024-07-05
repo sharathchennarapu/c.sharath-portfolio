@@ -8,8 +8,8 @@ function Footer() {
     <>
     <div className='footer-container'>
         <div className='footer-container-item'>
-        <Link to='/' className='footer-container-item-1'>
-            <img src={require('../images/mylogo.2.png')} alt='mylogopic' className='img-fluid'/>
+        <Link to='/'  className='footer-container-item-1 d-flex justify-content-center'>
+            <img  src={require('../images/mylogo.2.png')} alt='mylogopic' className='img-fluid '/>
             </Link>
              <ul className="navitems2 me-auto mb-2 mb-lg-0" >
         <li className='navitems-li'> 

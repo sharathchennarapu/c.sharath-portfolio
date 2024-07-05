@@ -7,7 +7,7 @@
 .about-subcontainer
 {
     height: 100vh;
-    width: fit-content;
+    width: 100%;
     position: absolute;
     top: 130px;
     left: 100px;

@@ -17,7 +17,7 @@ function Skills() {
            <h4><u>My Skills</u></h4>
            <h1>Beautiful and Unique Digital Experiences</h1>
            <h5>I Design the Beautiful yet simple websites and Digital art. And also Develop the websites in Quick Time with the beautiful user Experience.The Tools I Use Adobe Illustrator, Adobe Photoshop and Adobe XD for Designing. HTML, CSS and JavaScript with the Libraries Bootstrap, Jquery and ReactJS</h5>
-           <a className='btn btn-outline-primary buttonlink' href='sharath resume new.pdf' download='Resume.pdf'>Download CV</a>
+           <a className='btn btn-outline-primary buttonlink' href='sharathchennarapu.uiux.resume.pdf' download='Resume.pdf'>Download CV</a>
            
         </Col>
         <Col className='skills-container-items2'>
