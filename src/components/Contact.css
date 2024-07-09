@@ -1,7 +1,8 @@
 .contact-maincontainer
 {
-    height: 100vh;
+    height: auto;
     width: 100%;
+    padding-bottom: 50px;
     background-color: black;
 }
 .contact-container
@@ -119,18 +120,22 @@
     width: 300px;
     height: 37px;
     border-radius: 7px;
+    padding-left: 10px;
 }
 .formfillup2
 {
     width: 625px;
     height: 37px;
     border-radius: 7px;
+    padding-left: 10px;
 }
 .formfillup3
 {
     width: 625px;
     height: 95px;
     border-radius: 7px;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 @media only screen and (min-width :360px) and (max-width :640px) {
     .contact-maincontainer
