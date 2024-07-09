@@ -1,8 +1,9 @@
 .skills-container
 {
-    height: 110vh;
+    height:auto;
     width: 100%;
     background-color: black;
+    padding-bottom: 50px;
 }
 .skills-container-items
 {

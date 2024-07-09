@@ -30,13 +30,13 @@ function Footer() {
       </ul>
           <div className='footer-icons'>
             <div className='footer-icon1'> 
-              <a href='https://linktr.ee/sharathchennarapu.uiux'><SiLinktree size={40} /></a> 
+              <a href='https://linktr.ee/sharathchennarapu_Portfolio' target='blank'><SiLinktree size={40} /></a> 
             </div>
             <div className='footer-icon1'> 
-              <a href='https://www.linkedin.com/in/sharath-chennarapu-98929328a/?trk=public-profile-join-page'><SiLinkedin size={40} /> </a>
+              <a href='https://www.linkedin.com/in/sharath-chennarapu-98929328a/' target='blank'><SiLinkedin size={40} /> </a>
             </div>
             <div className='footer-icon1'> 
-              <a href='https://www.instagram.com/_tinku_mudiraj_/'><SiInstagram  size={40}/></a>
+              <a href='https://www.instagram.com/_tinku_mudiraj_/' target='blank'><SiInstagram  size={40}/></a>
             </div>
           </div>
         </div>
